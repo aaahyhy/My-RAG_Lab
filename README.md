@@ -5,8 +5,9 @@
 ![RAGAS](https://img.shields.io/badge/Evaluation-RAGAS-orange.svg)
 
 ## 📌 项目简介
-A modular RAG experiment &amp; evaluation framework. Supports Base, HyDE, and Rerank strategies with automated RAGAS metrics. Designed for academic research and engineering practice.
-**RAG-Lab** 是一个专为学术研究与工程实践设计的模块化 RAG (Retrieval-Augmented Generation) 实验框架。本项目通过 **Pipeline Factory** 设计模式实现了各组件的解耦，支持 Base、HyDE、Rerank 等多种策略的快速切换与量化对比。
+
+**My-RAG_Lab** 是一个专为学术研究与工程实践设计的模块化 RAG (Retrieval-Augmented Generation) 实验框架。项目通过 **Pipeline Factory** 设计模式实现各组件的解耦，支持 Base、HyDE、Rerank 等多种策略的快速切换与量化对比。  
+> ⚡ 本项目所有大模型功能均通过 API 调用实现，**无需本地部署模型**，更轻量、易上手。
 
 ## ✨ 核心特性
 
@@ -15,6 +16,11 @@ A modular RAG experiment &amp; evaluation framework. Supports Base, HyDE, and Re
 - **🧪 实验驱动**：内置多种检索增强策略（如 **HyDE**、**Cross-Encoder Rerank**），支持一键对比消融实验。
 - **📊 自动化评测**：集成 **RAGAS** 框架，提供 Faithfulness、Context Recall、Answer Relevancy 等维度的端到端量化评估。
 - **⚡ 资源优化**：针对显存溢出 (OOM) 与 API 延迟进行专项优化，支持受限环境下的高效评测。
+
+## ⚠️ 注意事项
+
+- 本项目目前为**学习实验性质**，代码中可能存在冗余或非最佳实践，欢迎指正。
+- 作者尚在学习中，**新手上路，请多指教！** 🙏
 
 ## 🏗️ 系统架构
 
@@ -29,6 +35,6 @@ A modular RAG experiment &amp; evaluation framework. Supports Base, HyDE, and Re
 
 ### 环境配置
 ```bash
-git clone https://github.com/your-username/RAG-Lab.git
-cd RAG-Lab
+git clone https://github.com/aaahyhy/My-RAG_Lab.git
+cd My-RAG_Lab
 pip install -r requirements.txt
