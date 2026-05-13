@@ -1,0 +1,2 @@
+method,faithfulness,answer_relevancy,context_precision,context_recall,time_seconds,total_tokens
+hyde,0.9385568513119533,0.5894105933648567,0.7533333332756667,0.689,7440.64,0
